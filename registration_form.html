@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+    <form action="./thankyou.html" method="" target="">
+
+        <h1>Registration Form </h1>
+        <label for="First Name">
+            <!-- FIRST NAME -->
+        First Name  :
+        <input type="text" id="First Name" maxlength="50" minlength="5" required placeholder="Enter the First Name"> 
+        <br>
+        <br>
+        <!-- LAST NAME -->
+        Last Name : 
+        <input type="text" id="Last Name" maxlength="50" minlength="5" placeholder="Enter the Last Name">
+        <br>
+        <br>
+        <!-- AGE -->
+        Age :   
+        <input type="number" id="Age" max="110" min="1" required placeholder="18">
+        <br>
+        <br>
+        <!-- PHONE NUMBER -->
+        Phone :
+        <input type="tel" id="phone" maxlength="10" minlength="10" required placeholder="Enter your phone number ">
+        <br>        
+        <br>
+        <!-- EMAIL -->
+        Email : 
+        <input type="email" id="email" required placeholder="Enter the Email">
+        <br>
+        <br>
+        <!-- GENDER -->
+        Gender : 
+        <input type="radio" name="gender" value="Male"> Male
+        <input type="radio" name="gender" value="Female"> Female
+        <input type="radio" name="gender" value="Others"> Others
+        <br>
+        <br>
+        <!-- STREAM -->
+        Stream :
+        <select name="course">
+            <option>--Select Course--</option>
+            <option value="ARTS">ARTS</option>
+            <option value="PCM">PCM</option>
+            <option option="PCB">PCB</option>
+            <option option="COMMERCE">COMMERCE</option>
+        </select>
+        <br>
+        <br>
+        <!-- PASSWORD -->
+         Password :
+         <input type="password" name="password" id="password" minlength="6" maxlength="6" required 
+         placeholder="Enter tight password">
+         <br>
+         <br>
+         <!-- SUBMIT -->
+          SUBMIT 
+          <input type="submit" value="register">
+          &nbsp;
+          &nbsp;
+          &nbsp;
+          <input type="reset" value="Reset">
+
+        </label>
+        </center>
+        
+
+
+
+    </form>
+</body>
+</html>
